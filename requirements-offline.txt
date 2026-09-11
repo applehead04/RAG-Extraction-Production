@@ -1,0 +1,13 @@
+-r requirements.txt
+selenium>=4.20
+webdriver-manager>=4.0
+beautifulsoup4>=4.12
+requests>=2.32
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1
+joblib>=1.4
+mistralai>=1.0
+langchain-text-splitters>=0.3
+ragas>=0.2
+chromadb>=0.5

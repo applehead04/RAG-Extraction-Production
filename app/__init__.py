@@ -1,0 +1,1 @@
+"""HKMA Pillar 3 RAG extraction service."""

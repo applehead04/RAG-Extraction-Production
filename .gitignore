@@ -1,0 +1,10 @@
+.env
+.venv/
+chroma_db/
+bm25_index/*.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.xlsx
+*.pdf

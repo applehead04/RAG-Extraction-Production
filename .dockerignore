@@ -1,0 +1,11 @@
+scripts/
+.bank_cache/
+chroma_db/
+bm25_index/
+*.xlsx
+*.ipynb
+.env
+.git/
+__pycache__/
+*.pyc
+.venv/
