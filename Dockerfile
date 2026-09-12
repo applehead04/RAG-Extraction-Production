@@ -19,4 +19,6 @@ ENV CHROMA_DIR=/srv/chroma_db \
 
 EXPOSE 8000
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Reads $PORT if the platform injects one (Cloud Run, Render, Railway all do
+# this), falling back to 8000 for local `docker run`.
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

@@ -84,7 +84,45 @@ curl -X POST http://localhost:8000/query \
 
 Interactive docs are available at `http://localhost:8000/docs`.
 
-### 5. Evaluate (offline)
+### 5. Deploy to Cloud Run
+
+The container reads `$PORT` if the platform injects one, so no manual
+`--port` flag is needed on Cloud Run.
+
+```bash
+# Build for linux/amd64 — required if you're on Apple Silicon, since Cloud
+# Run's infrastructure is amd64 and a locally-built arm64 image will be
+# rejected. --provenance=false --sbom=false avoid a multi-manifest image
+# index that has caused Cloud Run to fail resolving the actual image layers.
+docker buildx build --platform linux/amd64 --provenance=false --sbom=false \
+  -t <region>-docker.pkg.dev/<project>/<repo>/pillar3-rag:latest --push .
+
+# chroma_db/ and bm25_index/ aren't baked into the image (see Architecture
+# above) — upload them to a bucket and mount it as a volume at deploy time.
+gcloud storage cp -r chroma_db bm25_index gs://<bucket>/
+
+gcloud run deploy pillar3-rag \
+  --image=<region>-docker.pkg.dev/<project>/<repo>/pillar3-rag:latest \
+  --region=<region> --allow-unauthenticated --execution-environment=gen2 \
+  --add-volume=name=data,type=cloud-storage,bucket=<bucket> \
+  --add-volume-mount=volume=data,mount-path=/data \
+  --set-env-vars="GOOGLE_API_KEY=...,CHROMA_DIR=/data/chroma_db,BM25_DIR=/data/bm25_index,CHROMA_COLLECTION=pillar3_disclosures"
+```
+
+**If you're changing volume/mount configuration on an existing service and
+hit a confusing state** (e.g. `ModuleNotFoundError: No module named 'app'`
+despite the image being fine, or a "volumes ... not found" error):
+`gcloud run deploy` merges new flags into the existing service spec rather
+than replacing it outright, so stale volume config from an earlier deploy
+can silently persist. Delete the service and redeploy clean rather than
+trying to patch it further:
+
+```bash
+gcloud run services delete pillar3-rag --region=<region>
+# then re-run the gcloud run deploy command above
+```
+
+### 6. Evaluate (offline)
 
 ```bash
 python scripts/evaluate.py --ground-truth ground_truth.xlsx --workers 8
