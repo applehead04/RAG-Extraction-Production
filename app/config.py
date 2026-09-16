@@ -21,6 +21,9 @@ COLLECTION_NAME = os.getenv("CHROMA_COLLECTION", "pillar3_disclosures")
 LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash-lite")
 EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", "models/gemini-embedding-001")
 
+CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "10000"))
+CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "2000"))
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",

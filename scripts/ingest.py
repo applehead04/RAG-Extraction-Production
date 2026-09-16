@@ -27,6 +27,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.config import (  # noqa: E402
+    CHUNK_OVERLAP,
+    CHUNK_SIZE,
     MISTRAL_API_KEY,
     get_chroma_collection,
     get_embedding_model,
@@ -40,7 +42,7 @@ EMBED_BATCH_SIZE = 100
 BASE_URL = "https://vpr.hkma.gov.hk"
 
 mistral_client = Mistral(api_key=MISTRAL_API_KEY)
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=2000)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
 
 
 # ---------------------------------------------------------------------------

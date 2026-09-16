@@ -1,0 +1,595 @@
+strategy,bank,template,item,year,gt_value,gt_unit,ext_value,ext_unit,value_ok,unit_ok,fully_ok,chunking
+sparse,AIRSTAR BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,54.2,%,54.2,%,True,True,True,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,53.6,%,53.6,HKD'K,True,False,False,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,1794706,HKD’K,1794706.0,HKD'K,True,True,True,OLD_10000_2000
+sparse,AIRSTAR BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+sparse,AIRSTAR BANK LIMITED,LR2,Leverage ratio,2025 Mar,18.96,%,18.96,HK$'000,True,False,False,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,1280214,HKD’K,1280214.0,HKD'K,True,True,True,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,36.62,%,36.62,HKD'K,True,False,False,OLD_10000_2000
+sparse,AIRSTAR BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,3155113,HK$'000,3155113.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,135.89,%,98.88,HKD'K,False,False,False,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,21.39,%,21.39,HKD'K,True,False,False,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,7788,HKD’K,7788.0,HKD'K,True,True,True,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,5657078,HKD’K,5657078.0,HKD'K,True,True,True,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,104288,HKD’K,104288.0,HKD'K,True,True,True,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,281204,HK$’m,281204.0,HK$'m,True,True,True,OLD_10000_2000
+sparse,ANT BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HKD'K,True,False,False,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,1331828,HK$’m,1331828.0,HK$'m,True,True,True,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,20.41,%,266651.0,HK$'m,False,False,False,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,22.17,%,22.17,HK$'m,True,False,False,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,KM1,LMR,2024 Mar,Not applicable,%,3720479.0,HK$'m,False,False,False,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,88333,HK$’m,88333.0,HK$'m,True,True,True,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,71065,HK$’m,71065.0,HK$'m,True,True,True,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,3600483,HK$’m,3600483.0,HK$'m,True,True,True,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,7.16,%,7.18,HK$'m,False,False,False,OLD_10000_2000
+sparse,BANK OF CHINA (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'m,True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Tier 1,2025 Mar,92016,HK$ million,92016.0,(HK$ million),True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.74,%,17.74,(HK$ million),True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Total capital ratio,2024 Jun,22.82,%,22.82,%,True,True,True,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Total RWA,2024 Dec,486099,HK$ million,486099.0,(HK$ million),True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",OV1,Market risk,2025 Mar,7822,HK$ million,7822.0,(HK$ million),True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",OV1,Operational risk,2025 Mar,25453,HK$ million,25453.0,(HK$ million),True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,835575,HK$ million,835575.0,HK$ million,True,True,True,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",KM1,LMR,2024 Mar,Not applicable,%,10.64,(HK$ million),False,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Leverage ratio,2025 Mar,10.31,%,10.31,%,True,True,True,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Total RWA,2024 Dec,398504768,HK$ thousands,398504768.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+sparse,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,(HK$ million),True,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Tier 1,2025 Mar,100106030,HK$ thousands,100106030.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,18.46,%,18.46,In HK$ thousands,True,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Total capital ratio,2024 Jun,21.11,%,21.11,In HK$ thousands,True,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,LMR,2024 Mar,Not applicable,%,558943131.0,thousands of Hong Kong Dollars,False,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,OV1,Market risk,2025 Mar,28397175,HK$ thousands,28397175.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,OV1,Operational risk,2025 Mar,8823063,HK$ thousands,705845.0,thousands of Hong Kong Dollars,False,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,538941889,HK$ thousands,538941889.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,24035007,Thousands of Hong Kong dollar,24035007.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,88524872,Thousands of Hong Kong dollar,88524972.0,In thousands of Hong Kong dollar,False,False,False,OLD_10000_2000
+sparse,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Leverage ratio,2025 Mar,17.14,%,17.14,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,29.75,%,29.75,%,True,True,True,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,29.44,%,29.44,%,True,True,True,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,66.69,%,68.8,In thousands of Hong Kong dollar,False,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,337850,Thousands of Hong Kong dollar,337850.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,13093775,Thousands of Hong Kong dollar,13093775.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,7.01,%,7.01,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,332854065,Thousands of Hong Kong dollar,332854065.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+sparse,CITIBANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,%,True,True,True,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,269397,HK$ millions,269397.0,HK$ millions,True,True,True,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,50974,HK$ millions,50974.0,HK$ millions,True,True,True,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,21.4,%,21.4,HK$ millions,True,False,False,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19,%,19.0,percentage,True,False,False,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,NA,%,0.0,HK$ millions,True,True,True,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,2857,HK$ millions,0.0,HK$ millions,False,True,False,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,17679,HK$ millions,0.0,HK$ millions,False,True,False,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,9.5,%,9.5,HK$ millions,True,False,False,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,455831,HK$ millions,455831.0,HK$ millions,True,True,True,OLD_10000_2000
+sparse,DBS BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,percentage,True,False,False,OLD_10000_2000
+sparse,FUSION BANK LIMITED,KM1,Total RWA,2024 Dec,2781364,HKD’000,2781364.0,HKD'000,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,KM1,Tier 1,2025 Mar,1477562,HKD’000,1477562.0,HKD'000,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,29,%,29.0,%,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,OV1,Market risk,2025 Mar,550,HKD’000,550.0,HKD'000,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,KM1,Total capital ratio,2024 Jun,34.8,%,34.8,%,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,KM1,LMR,2024 Mar,235.6,%,206.9,HKD'000,False,False,False,OLD_10000_2000
+sparse,FUSION BANK LIMITED,OV1,Operational risk,2025 Mar,84913,HKD’000,84913.0,HKD'000,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,9443927,HKD’000,9443927.0,HKD'000,True,True,True,OLD_10000_2000
+sparse,FUSION BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,3%,True,False,False,OLD_10000_2000
+sparse,FUSION BANK LIMITED,LR2,Leverage ratio,2025 Mar,15.6,%,15.6,HKD'000,True,False,False,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",KM1,Tier 1,2025 Mar,130495,HK$m,130495.0,HK$m,True,True,True,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",KM1,Total capital ratio,2024 Jun,19.7,%,19.7,%,True,True,True,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",KM1,Total RWA,2024 Dec,680082,HK$m,680082.0,HK$m,True,True,True,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.2,%,17.2,%,True,True,True,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",KM1,LMR,2024 Mar,Not applicable,%,1.0,HK$m,False,False,False,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",OV1,Market risk,2025 Mar,12759,HK$m,560366.0,HK$m,False,True,False,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",OV1,Operational risk,2025 Mar,46558,HK$m,560366.0,HK$m,False,True,False,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,1474852,HK$m,1474852.0,HK$m,True,True,True,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",LR2,Leverage ratio,2025 Mar,8,%,8.0,HK$m,True,False,False,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Tier 1,2025 Mar,587583,HK$m,587583.0,HK$m,True,True,True,OLD_10000_2000
+sparse,"HANG SENG BANK, LIMITED",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$m,True,False,False,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,16.7,%,16.7,%,True,True,True,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Total RWA,2024 Dec,3167152,HK$m,3167152.0,HK$m,True,True,True,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Total capital ratio,2024 Jun,19.4,%,19.4,HK$m,True,False,False,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,LMR,2024 Mar,Not applicable,%,10162707.0,HK$m,False,False,False,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),OV1,Market risk,2025 Mar,211452,HK$m,211452.0,HK$m,True,True,True,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),OV1,Operational risk,2025 Mar,327541,HK$m,327541.0,HK$m,True,True,True,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,7989993,HK$m,7998993.0,HK$m,False,True,False,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Leverage ratio,2025 Mar,5.8,%,5.8,HK$m,True,False,False,OLD_10000_2000
+sparse,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$m,True,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Tier 1,2025 Mar,152319241,HK$’000,152319241.0,(HK$'000),True,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Total RWA,2024 Dec,628460204,HK$’000,628460204.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19.08,%,19.08,(HK$'000),True,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Total capital ratio,2024 Jun,24.32,%,24.32,(HK$'000),True,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,LMR,2024 Mar,N/A,%,188.67,(HK$'000),False,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,OV1,Market risk,2025 Mar,9581238,HK$’000,9581238.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,OV1,Operational risk,2025 Mar,14076888,HK$’000,14076888.0,(HK$'000),True,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Leverage ratio,2025 Mar,13.73,%,13.73,HK$'000,True,False,False,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,915980353,HK$’000,915980353.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,13.73,HK$'000,False,False,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,KM1,Total RWA,2024 Dec,2182177,HK$’000,2192177.0,HK$'000,False,True,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,KM1,Tier 1,2025 Mar,1654582,HK$’000,1654582.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,LIVI BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,50.5,%,930899.0,HK$'000,False,False,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,KM1,Total capital ratio,2024 Jun,94.3,%,94.3,HK$'000,True,False,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,KM1,LMR,2024 Mar,182.1,%,152.3,HK$'000,False,False,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,LIVI BANK LIMITED,OV1,Operational risk,2025 Mar,209225,HK$’000,209225.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,LIVI BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,LR2,Leverage ratio,2025 Mar,25.3,%,25.3,HK$'000,True,False,False,OLD_10000_2000
+sparse,LIVI BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,6519870,HK$’000,6519870.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,MOX BANK LIMITED,KM1,Tier 1,2025 Mar,1501315,HK$’000,1501315.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,MOX BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,13.11,%,13.11,HK$'000,True,False,False,OLD_10000_2000
+sparse,MOX BANK LIMITED,KM1,Total RWA,2024 Dec,6670498,HK$’000,6670498.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,MOX BANK LIMITED,KM1,LMR,2024 Mar,68.89,%,69.89,HK$'000,False,False,False,OLD_10000_2000
+sparse,MOX BANK LIMITED,OV1,Operational risk,2025 Mar,818738,HK$’000,818738.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,MOX BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,21016157,HK$’000,21016157.0,HKD'000,True,False,False,OLD_10000_2000
+sparse,MOX BANK LIMITED,OV1,Market risk,2025 Mar,N/A,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,MOX BANK LIMITED,KM1,Total capital ratio,2024 Jun,20.94,%,20.94,HK$'000,True,False,False,OLD_10000_2000
+sparse,MOX BANK LIMITED,LR2,Leverage ratio,2025 Mar,6.32,%,6.32,HKD'000,True,False,False,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Tier 1,2025 Mar,60915887,HK$’000,60915887.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,MOX BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HKD'000,True,False,False,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Total RWA,2024 Dec,359746767,HK$’000,359746767.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,14.05,%,53340216.0,HK$'000,False,False,False,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Total capital ratio,2024 Jun,18.89,%,18.89,HK$'000,True,False,False,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",OV1,Market risk,2025 Mar,6286675,HK$’000,6286675.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",OV1,Operational risk,2025 Mar,8620375,HK$’000,8620375.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,542322787,HK$’000,542322787.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Leverage ratio,2025 Mar,10.31,%,10.31,HK$'000,True,False,False,OLD_10000_2000
+sparse,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+sparse,PAO BANK LIMITED,KM1,Tier 1,2025 Mar,729970,HK$’000,729970.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,KM1,Total RWA,2024 Dec,1358875,HK$’000,1358875.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,KM1,Total capital ratio,2024 Jun,62.6,%,62.6,%,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,70.9,%,70.9,%,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,KM1,LMR,2024 Mar,68.3,%,15.0,HK$'000,False,False,False,OLD_10000_2000
+sparse,PAO BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,OV1,Operational risk,2025 Mar,198413,HK$’000,198413.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,5687660,HK$’000,5687660.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,LR2,Leverage ratio,2025 Mar,12.8,%,12.8,HK$'000,True,False,False,OLD_10000_2000
+sparse,WELAB BANK LIMITED,KM1,Total RWA,2024 Dec,5347956,HK$’000,5347956.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,WELAB BANK LIMITED,KM1,Tier 1,2025 Mar,927805,HK$’000,927805.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,PAO BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+sparse,WELAB BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,18.5,%,18.5,%,True,True,True,OLD_10000_2000
+sparse,WELAB BANK LIMITED,KM1,Total capital ratio,2024 Jun,20.9,%,20.9,%,True,True,True,OLD_10000_2000
+sparse,WELAB BANK LIMITED,KM1,LMR,2024 Mar,327.1,%,587.4,HK$'000,False,False,False,OLD_10000_2000
+sparse,WELAB BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,WELAB BANK LIMITED,OV1,Operational risk,2025 Mar,295938,HK$’000,295938.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,WELAB BANK LIMITED,LR2,Leverage ratio,2025 Mar,10.9,%,10.9,HK$'000,True,False,False,OLD_10000_2000
+sparse,WELAB BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,8426644,HK$’000,8426644.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,ZA BANK LIMITED,KM1,Tier 1,2025 Mar,2031344,HK$ ’000,2031344.0,(HK$ '000),True,False,False,OLD_10000_2000
+sparse,WELAB BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+sparse,ZA BANK LIMITED,KM1,Total RWA,2024 Dec,9022777,HK$ ’000,9022777.0,(HK$ '000),True,False,False,OLD_10000_2000
+sparse,ZA BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,22.8,%,22.8,%,True,True,True,OLD_10000_2000
+sparse,ZA BANK LIMITED,KM1,Total capital ratio,2024 Jun,22.5,%,22.5,%,True,True,True,OLD_10000_2000
+sparse,ZA BANK LIMITED,KM1,LMR,2024 Mar,93.1,%,100.9,(HK$ '000),False,False,False,OLD_10000_2000
+sparse,ZA BANK LIMITED,OV1,Market risk,2025 Mar,1588,HK$ ’000,1588.0,HK$ '000,True,True,True,OLD_10000_2000
+sparse,ZA BANK LIMITED,LR2,Leverage ratio,2025 Mar,8.2,%,8.2,(HK$ '000),True,False,False,OLD_10000_2000
+sparse,ZA BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,24286900,HK$ ’000,24286900.0,(HK$ '000),True,False,False,OLD_10000_2000
+sparse,ZA BANK LIMITED,OV1,Operational risk,2025 Mar,817563,HK$ ’000,817563.0,(HK$ '000),True,False,False,OLD_10000_2000
+sparse,ZA BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$ '000,True,False,False,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,853572,HK$M,853572.0,HK$M,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,184883,HK$M,184883.0,HK$M,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.1,%,17.1,HK$M,True,False,False,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,20.2,%,20.2,%,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$M,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,101634,HK$M,101634.0,HK$M,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,2123188,HK$M,2123188.0,HK$M,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,86393,HK$M,86393.0,HK$M,True,True,True,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,6.77,%,6.8,HK$M,False,False,False,OLD_10000_2000
+sparse,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$M,True,False,False,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Tier 1,2025 Mar,53877738,HK$’000,53877738.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Total RWA,2024 Dec,316672653,HK$’000,316672653.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19.4,%,14.0,%,False,True,False,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Total capital ratio,2024 Jun,18.7,%,18.7,%,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,OV1,Market risk,2025 Mar,5717938,HK$’000,5717938.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,OV1,Operational risk,2025 Mar,15417263,HK$’000,15417263.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,478844568,HK$’000,478844568.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Leverage ratio,2025 Mar,9.8,%,9.8,HK$'000,True,False,False,OLD_10000_2000
+sparse,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,56845879,HK$’000,56845879.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,290900268,HK$’000,290900268.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.95,%,17.95,%,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,21.88,%,21.88,%,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,938375,HK$’000,938375.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,14846025,HK$’000,14846025.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,425891265,HK$’000,425891265.0,HK$'000,True,True,True,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,12.4,%,12.4,HK$'000,True,False,False,OLD_10000_2000
+sparse,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,54.2,%,54.2,%,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,KM1,Total capital ratio,2024 Jun,64.25,%,64.25,%,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,OV1,Operational risk,2025 Mar,84100,HK$'000,84100.0,HK$'000,True,True,True,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,1280214,HKD’K,1280214.0,HKD'K,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,KM1,LMR,2024 Mar,148.85,%,148.85,HK$'000,True,False,False,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,36.62,%,36.62,HKD'K,True,False,False,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,KM1,Total RWA,2024 Dec,1376627,HK$'000,1376627.0,HK$'000,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,KM1,Tier 1,2025 Mar,594554,HK$'000,594554.0,HK$'000,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,3155113,HK$'000,3155113.0,HK$'000,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,OV1,Market risk,2025 Mar,4675,HK$'000,4675.0,HK$'000,True,True,True,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,AIRSTAR BANK LIMITED,LR2,Leverage ratio,2025 Mar,18.96,%,18.96,HK$'000,True,False,False,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,1794706,HKD’K,1794706.0,HKD'K,True,True,True,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,53.6,%,53.6,%,True,True,True,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,135.89,%,135.89,HKD'K,True,False,False,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,7788,HKD’K,7788.0,HKD'K,True,True,True,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,104288,HKD’K,104288.0,HKD'K,True,True,True,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,5657078,HKD’K,5657078.0,HKD'K,True,True,True,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,21.39,%,21.39,HKD'K,True,False,False,OLD_10000_2000
+dense,ANT BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HKD'K,True,False,False,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,281204,HK$’m,281204.0,HK$'m,True,True,True,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,1331828,HK$’m,1331828.0,HK$'m,True,True,True,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,KM1,LMR,2024 Mar,Not applicable,%,0.0,HK$'m,True,True,True,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,22.17,%,22.17,%,True,True,True,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,20.41,%,20.41,HK$'m,True,False,False,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,88333,HK$’m,88333.0,HK$'m,True,True,True,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,71065,HK$’m,71065.0,HK$'m,True,True,True,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,3600483,HK$’m,3600483.0,HK$'m,True,True,True,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Tier 1,2025 Mar,92016,HK$ million,92016.0,(HK$ million),True,False,False,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'m,True,False,False,OLD_10000_2000
+dense,BANK OF CHINA (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,7.16,%,7.16,HK$'m,True,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Total RWA,2024 Dec,486099,HK$ million,486099.0,HK$ million,True,True,True,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Total capital ratio,2024 Jun,22.82,%,22.82,%,True,True,True,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.74,%,17.74,HK$ million,True,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",KM1,LMR,2024 Mar,Not applicable,%,10.31,(HK$ million),False,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",OV1,Market risk,2025 Mar,7822,HK$ million,7822.0,(HK$ million),True,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",OV1,Operational risk,2025 Mar,25453,HK$ million,25453.0,(HK$ million),True,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,835575,HK$ million,835575.0,HK$ million,True,True,True,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Total RWA,2024 Dec,398504768,HK$ thousands,398504768.0,In HK$ thousands,True,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Tier 1,2025 Mar,100106030,HK$ thousands,100106030.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Leverage ratio,2025 Mar,10.31,%,10.31,(HK$ million),True,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,18.46,%,18.46,as a percentage of RWA,True,False,False,OLD_10000_2000
+dense,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$ million,True,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,24035007,Thousands of Hong Kong dollar,24035007.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,88524872,Thousands of Hong Kong dollar,88524972.0,In thousands of Hong Kong dollar,False,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,29.44,%,29.44,%,True,True,True,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,29.75,%,29.75,%,True,True,True,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,66.69,%,68.8,In thousands of Hong Kong dollar,False,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,337850,Thousands of Hong Kong dollar,337850.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,13093775,Thousands of Hong Kong dollar,13093775.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,332854065,Thousands of Hong Kong dollar,332854065.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,7.01,%,7.01,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+dense,CITIBANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,%,True,True,True,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Total capital ratio,2024 Jun,21.11,%,21.11,as a percentage of RWA,True,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,LMR,2024 Mar,Not applicable,%,141.15,thousands of Hong Kong Dollars,False,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,OV1,Market risk,2025 Mar,28397175,HK$ thousands,28397175.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,OV1,Operational risk,2025 Mar,8823063,HK$ thousands,8823063.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,538941889,HK$ thousands,538941889.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,%,True,True,True,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,269397,HK$ millions,269397.0,HK$ millions,True,True,True,OLD_10000_2000
+dense,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Leverage ratio,2025 Mar,17.14,%,17.14,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,50974,HK$ millions,50974.0,HK$ millions,True,True,True,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,21.4,%,21.4,In HK$ millions,True,False,False,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19,%,19.0,As a percentage of RWA,True,False,False,OLD_10000_2000
+dense,FUSION BANK LIMITED,KM1,Total RWA,2024 Dec,2781364,HKD’000,2781364.0,HKD'000,True,True,True,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,NA,%,0.0,HK$ millions,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,29,%,29.0,%,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,KM1,Total capital ratio,2024 Jun,34.8,%,34.8,%,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,KM1,LMR,2024 Mar,235.6,%,206.9,HKD'000,False,False,False,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,2857,HK$ millions,2857.0,HK$ millions,True,True,True,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,17679,HK$ millions,17679.0,HK$ millions,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,LR2,Leverage ratio,2025 Mar,15.6,%,15.6,HKD'000,True,False,False,OLD_10000_2000
+dense,FUSION BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,3%,True,False,False,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,9.5,%,9.5,HK$ millions,True,False,False,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,455831,HK$ millions,455831.0,HK$ millions,True,True,True,OLD_10000_2000
+dense,DBS BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$ millions,True,False,False,OLD_10000_2000
+dense,FUSION BANK LIMITED,OV1,Market risk,2025 Mar,550,HKD’000,550.0,HKD'000,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,KM1,Tier 1,2025 Mar,1477562,HKD’000,1477562.0,HKD'000,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,OV1,Operational risk,2025 Mar,84913,HKD’000,84913.0,HKD'000,True,True,True,OLD_10000_2000
+dense,FUSION BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,9443927,HKD’000,9443927.0,HKD'000,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",KM1,Total RWA,2024 Dec,680082,HK$m,680082.0,HK$m,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",KM1,Total capital ratio,2024 Jun,19.7,%,19.7,%,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.2,%,17.2,percentage,True,False,False,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",KM1,Tier 1,2025 Mar,130495,HK$m,130495.0,HK$m,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",OV1,Market risk,2025 Mar,12759,HK$m,12759.0,HK$m,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",KM1,LMR,2024 Mar,Not applicable,%,1.0,HK$m,False,False,False,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",OV1,Operational risk,2025 Mar,46558,HK$m,46558.0,HK$m,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",LR2,Leverage ratio,2025 Mar,8,%,8.0,HK$m,True,False,False,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Total RWA,2024 Dec,3167152,HK$m,3167152.0,HK$m,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,%,True,True,True,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Tier 1,2025 Mar,587583,HK$m,587583.0,HK$m,True,True,True,OLD_10000_2000
+dense,"HANG SENG BANK, LIMITED",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,1474852,HK$m,1474852.0,HK$m,True,True,True,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Total capital ratio,2024 Jun,19.4,%,19.4,%,True,True,True,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,LMR,2024 Mar,Not applicable,%,160.4,HK$m,False,False,False,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),OV1,Market risk,2025 Mar,211452,HK$m,211452.0,HK$m,True,True,True,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),OV1,Operational risk,2025 Mar,327541,HK$m,327541.0,HK$m,True,True,True,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,16.7,%,16.7,%,True,True,True,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Leverage ratio,2025 Mar,5.8,%,10162707.0,HK$m,False,False,False,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Minimum leverage ratio requirement,2025 Mar,3,%,5.8,%,False,True,False,OLD_10000_2000
+dense,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,7989993,HK$m,7998993.0,HK$m,False,True,False,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Tier 1,2025 Mar,152319241,HK$’000,152319241.0,HK$'000,True,True,True,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19.08,%,19.08,(HK$'000),True,False,False,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Total RWA,2024 Dec,628460204,HK$’000,628460204.0,HK$'000,True,True,True,OLD_10000_2000
+dense,LIVI BANK LIMITED,KM1,Tier 1,2025 Mar,1654582,HK$’000,1654582.0,HK$'000,True,True,True,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Total capital ratio,2024 Jun,24.32,%,24.32,(HK$'000),True,False,False,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,OV1,Market risk,2025 Mar,9581238,HK$’000,9581238.0,HK$'000,True,True,True,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,OV1,Operational risk,2025 Mar,14076888,HK$’000,14076888.0,HK$'000,True,True,True,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,915980353,HK$’000,915980353.0,(HK$'000),True,False,False,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Leverage ratio,2025 Mar,13.73,%,13.73,(HK$'000),True,False,False,OLD_10000_2000
+dense,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,LIVI BANK LIMITED,LR2,Leverage ratio,2025 Mar,25.3,%,25.3,HK$'000,True,False,False,OLD_10000_2000
+dense,LIVI BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,50.5,%,930899.0,HK$'000,False,False,False,OLD_10000_2000
+dense,LIVI BANK LIMITED,KM1,Total capital ratio,2024 Jun,94.3,%,94.3,HK$'000,True,False,False,OLD_10000_2000
+dense,LIVI BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,LIVI BANK LIMITED,KM1,Total RWA,2024 Dec,2182177,HK$’000,2192177.0,HK$'000,False,True,False,OLD_10000_2000
+dense,LIVI BANK LIMITED,KM1,LMR,2024 Mar,182.1,%,152.3,HK$'000,False,False,False,OLD_10000_2000
+dense,LIVI BANK LIMITED,OV1,Operational risk,2025 Mar,209225,HK$’000,209225.0,HK$'000,True,True,True,OLD_10000_2000
+dense,LIVI BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,6519870,HK$’000,6519870.0,HK$'000,True,True,True,OLD_10000_2000
+dense,LIVI BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,MOX BANK LIMITED,KM1,Tier 1,2025 Mar,1501315,HK$’000,1501315.0,HK$'000,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,KM1,Total RWA,2024 Dec,6670498,HK$’000,6670498.0,HK$'000,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,13.11,%,13.11,HK$'000,True,False,False,OLD_10000_2000
+dense,MOX BANK LIMITED,KM1,Total capital ratio,2024 Jun,20.94,%,20.94,%,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,OV1,Market risk,2025 Mar,N/A,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,KM1,LMR,2024 Mar,68.89,%,69.89,HK$'000,False,False,False,OLD_10000_2000
+dense,MOX BANK LIMITED,OV1,Operational risk,2025 Mar,818738,HK$’000,818738.0,HK$'000,True,True,True,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",OV1,Market risk,2025 Mar,6286675,HK$’000,6286675.0,HK$'000,True,True,True,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",OV1,Operational risk,2025 Mar,8620375,HK$’000,8620375.0,HK$'000,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,21016157,HK$’000,21016157.0,HKD'000,True,False,False,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Leverage ratio,2025 Mar,10.31,%,10.31,HK$'000,True,False,False,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,PAO BANK LIMITED,KM1,Tier 1,2025 Mar,729970,HK$’000,729970.0,HK$'000,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,LR2,Leverage ratio,2025 Mar,6.32,%,6.32,HKD'000,True,False,False,OLD_10000_2000
+dense,PAO BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,70.9,%,70.9,%,True,True,True,OLD_10000_2000
+dense,PAO BANK LIMITED,KM1,Total capital ratio,2024 Jun,62.6,%,62.6,%,True,True,True,OLD_10000_2000
+dense,PAO BANK LIMITED,KM1,LMR,2024 Mar,68.3,%,15.0,HK$'000,False,False,False,OLD_10000_2000
+dense,PAO BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,MOX BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HKD'000,True,False,False,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Tier 1,2025 Mar,60915887,HK$’000,60915887.0,HK$'000,True,True,True,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Total RWA,2024 Dec,359746767,HK$’000,359746767.0,HK$'000,True,True,True,OLD_10000_2000
+dense,PAO BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,WELAB BANK LIMITED,KM1,Tier 1,2025 Mar,927805,HK$’000,927805.0,HK$'000,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,KM1,Total RWA,2024 Dec,5347956,HK$’000,5347956.0,HK$'000,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,18.5,%,18.5,%,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,KM1,Total capital ratio,2024 Jun,20.9,%,20.9,%,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,KM1,LMR,2024 Mar,327.1,%,587.4,HK$'000,False,False,False,OLD_10000_2000
+dense,WELAB BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,14.05,%,14.05,%,True,True,True,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Total capital ratio,2024 Jun,18.89,%,18.89,%,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,LR2,Leverage ratio,2025 Mar,10.9,%,10.9,HK$'000,True,False,False,OLD_10000_2000
+dense,WELAB BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,ZA BANK LIMITED,KM1,Tier 1,2025 Mar,2031344,HK$ ’000,2031344.0,(HK$ '000),True,False,False,OLD_10000_2000
+dense,PAO BANK LIMITED,KM1,Total RWA,2024 Dec,1358875,HK$’000,1358875.0,HK$'000,True,True,True,OLD_10000_2000
+dense,ZA BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,22.8,%,22.8,%,True,True,True,OLD_10000_2000
+dense,ZA BANK LIMITED,KM1,Total capital ratio,2024 Jun,22.5,%,22.5,%,True,True,True,OLD_10000_2000
+dense,ZA BANK LIMITED,KM1,LMR,2024 Mar,93.1,%,100.9,(HK$ '000),False,False,False,OLD_10000_2000
+dense,ZA BANK LIMITED,OV1,Market risk,2025 Mar,1588,HK$ ’000,1588.0,HK$ '000,True,True,True,OLD_10000_2000
+dense,ZA BANK LIMITED,OV1,Operational risk,2025 Mar,817563,HK$ ’000,817563.0,(HK$ '000),True,False,False,OLD_10000_2000
+dense,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,542322787,HK$’000,542322787.0,HK$'000,True,True,True,OLD_10000_2000
+dense,PAO BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,5687660,HK$’000,5687660.0,HK$'000,True,True,True,OLD_10000_2000
+dense,ZA BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$ '000,True,False,False,OLD_10000_2000
+dense,PAO BANK LIMITED,OV1,Operational risk,2025 Mar,198413,HK$’000,198413.0,HK$'000,True,True,True,OLD_10000_2000
+dense,PAO BANK LIMITED,LR2,Leverage ratio,2025 Mar,12.8,%,12.8,HK$'000,True,False,False,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,853572,HK$M,853572.0,HK$M,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,OV1,Operational risk,2025 Mar,295938,HK$’000,295938.0,HK$'000,True,True,True,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$M,True,True,True,OLD_10000_2000
+dense,WELAB BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,8426644,HK$’000,8426644.0,HK$'000,True,True,True,OLD_10000_2000
+dense,ZA BANK LIMITED,KM1,Total RWA,2024 Dec,9022777,HK$ ’000,9022777.0,(HK$ '000),True,False,False,OLD_10000_2000
+dense,ZA BANK LIMITED,LR2,Leverage ratio,2025 Mar,8.2,%,8.2,(HK$ '000),True,False,False,OLD_10000_2000
+dense,ZA BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,24286900,HK$ ’000,24286900.0,(HK$ '000),True,False,False,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.1,%,17.1,HK$M,True,False,False,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Tier 1,2025 Mar,53877738,HK$’000,53877738.0,HK$'000,True,True,True,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Total RWA,2024 Dec,316672653,HK$’000,316672653.0,HK$'000,True,True,True,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19.4,%,14.0,%,False,True,False,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Total capital ratio,2024 Jun,18.7,%,18.7,%,True,True,True,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,OV1,Market risk,2025 Mar,5717938,HK$’000,5717938.0,HK$'000,True,True,True,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,OV1,Operational risk,2025 Mar,15417263,HK$’000,15417263.0,HK$'000,True,True,True,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,20.2,%,20.2,%,True,True,True,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,101634,HK$M,101634.0,HK$M,True,True,True,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,184883,HK$M,184883.0,HK$M,True,True,True,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,2123188,HK$M,2123188.0,HK$M,True,True,True,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,86393,HK$M,86393.0,HK$M,True,True,True,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,6.77,%,6.77,HK$M,True,False,False,OLD_10000_2000
+dense,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$M,True,False,False,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Leverage ratio,2025 Mar,9.8,%,9.8,HK$'000,True,False,False,OLD_10000_2000
+dense,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,478844568,HK$’000,478844568.0,HK$'000,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,56845879,HK$’000,56845879.0,HK$'000,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,290900268,HK$’000,290900268.0,HK$'000,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,21.88,%,21.88,%,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.95,%,17.95,percentage,True,False,False,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,LMR,2024 Mar,N/A,%,455548605.0,HK$'000,False,False,False,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,938375,HK$’000,938375.0,HK$'000,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,14846025,HK$’000,14846025.0,HK$'000,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,12.4,%,12.4,HK$'000,True,False,False,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,425891265,HK$’000,425891265.0,HK$'000,True,True,True,OLD_10000_2000
+dense,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,KM1,Total RWA,2024 Dec,1376627,HK$'000,1376627.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,KM1,Tier 1,2025 Mar,594554,HK$'000,594554.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,54.2,%,54.2,%,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,KM1,Total capital ratio,2024 Jun,64.25,%,64.25,%,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,KM1,LMR,2024 Mar,148.85,%,148.85,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,OV1,Market risk,2025 Mar,4675,HK$'000,4675.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,OV1,Operational risk,2025 Mar,84100,HK$'000,84100.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,3155113,HK$'000,3155113.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,LR2,Leverage ratio,2025 Mar,18.96,%,18.96,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,1794706,HKD’K,1794706.0,HKD'K,True,True,True,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,1280214,HKD’K,1280214.0,HKD'K,True,True,True,OLD_10000_2000
+hybrid_rrf,AIRSTAR BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,36.62,%,36.62,HKD'K,True,False,False,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,53.6,%,53.6,%,True,True,True,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,135.89,%,135.89,HKD'K,True,False,False,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,7788,HKD’K,7788.0,HKD'K,True,True,True,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,104288,HKD’K,104288.0,HKD'K,True,True,True,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,5657078,HKD’K,5657078.0,HKD'K,True,True,True,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,21.39,%,21.39,HKD'K,True,False,False,OLD_10000_2000
+hybrid_rrf,ANT BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HKD'K,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,3600483,HK$’m,3600483.0,HK$'m,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,7.16,%,7.16,HK$'m,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,88333,HK$’m,88333.0,HK$'m,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,1331828,HK$’m,1331828.0,HK$'m,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,KM1,LMR,2024 Mar,Not applicable,%,0.0,HK$'m,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'m,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,281204,HK$’m,281204.0,HK$'m,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,20.41,%,20.41,HK$'m,True,False,False,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",OV1,Market risk,2025 Mar,7822,HK$ million,7822.0,(HK$ million),True,False,False,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",OV1,Operational risk,2025 Mar,25453,HK$ million,25453.0,(HK$ million),True,False,False,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,835575,HK$ million,835575.0,HK$ million,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,22.17,%,22.17,%,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF CHINA (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,71065,HK$’m,71065.0,HK$'m,True,True,True,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Total capital ratio,2024 Jun,22.82,%,22.82,%,True,True,True,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Total RWA,2024 Dec,486099,HK$ million,486099.0,HK$ million,True,True,True,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Tier 1,2025 Mar,92016,HK$ million,92016.0,(HK$ million),True,False,False,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.74,%,17.74,(HK$ million),True,False,False,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",KM1,LMR,2024 Mar,Not applicable,%,10.64,(HK$ million),False,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,OV1,Market risk,2025 Mar,28397175,HK$ thousands,28397175.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,OV1,Operational risk,2025 Mar,8823063,HK$ thousands,8823063.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,538941889,HK$ thousands,538941889.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,(HK$ million),True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Tier 1,2025 Mar,100106030,HK$ thousands,100106030.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,24035007,Thousands of Hong Kong dollar,24035007.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,88524872,Thousands of Hong Kong dollar,88524972.0,In thousands of Hong Kong dollar,False,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,29.44,%,29.44,%,True,True,True,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,29.75,%,29.75,%,True,True,True,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,66.69,%,68.8,In thousands of Hong Kong dollar,False,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,337850,Thousands of Hong Kong dollar,337850.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,13093775,Thousands of Hong Kong dollar,13093775.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,332854065,Thousands of Hong Kong dollar,332854065.0,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,7.01,%,7.01,In thousands of Hong Kong dollar,True,False,False,OLD_10000_2000
+hybrid_rrf,CITIBANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,%,True,True,True,OLD_10000_2000
+hybrid_rrf,"BANK OF EAST ASIA, LIMITED (THE)",LR2,Leverage ratio,2025 Mar,10.31,%,10.31,%,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Total RWA,2024 Dec,398504768,HK$ thousands,398504768.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,18.46,%,18.46,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,Total capital ratio,2024 Jun,21.11,%,21.11,In HK$ thousands,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,KM1,LMR,2024 Mar,Not applicable,%,583990436.0,thousands of Hong Kong Dollars,False,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Leverage ratio,2025 Mar,17.14,%,17.14,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CONSTRUCTION BANK (ASIA) CORPORATION LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,thousands of Hong Kong Dollars,True,False,False,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,50974,HK$ millions,50974.0,HK$ millions,True,True,True,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,269397,HK$ millions,269397.0,HK$ millions,True,True,True,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,NA,%,0.0,HK$ millions,True,True,True,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,2857,HK$ millions,2857.0,HK$ millions,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,KM1,Tier 1,2025 Mar,1477562,HKD’000,1477562.0,HKD'000,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,KM1,Total RWA,2024 Dec,2781364,HKD’000,2781364.0,HKD'000,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,29,%,29.0,%,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,KM1,Total capital ratio,2024 Jun,34.8,%,34.8,%,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,KM1,LMR,2024 Mar,235.6,%,206.9,HKD'000,False,False,False,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,OV1,Market risk,2025 Mar,550,HKD’000,550.0,HKD'000,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,OV1,Operational risk,2025 Mar,84913,HKD’000,84913.0,HKD'000,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,LR2,Leverage ratio,2025 Mar,15.6,%,15.6,HKD'000,True,False,False,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,3%,True,False,False,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",KM1,Tier 1,2025 Mar,130495,HK$m,130495.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,9.5,%,9.5,HK$ millions,True,False,False,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.2,%,17.2,percentage,True,False,False,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",KM1,Total capital ratio,2024 Jun,19.7,%,19.7,%,True,True,True,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",KM1,LMR,2024 Mar,Not applicable,%,1.0,HK$m,False,False,False,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19,%,19.0,In HK$ millions,True,False,False,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,17679,HK$ millions,17679.0,HK$ millions,True,True,True,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,21.4,%,21.4,In HK$ millions,True,False,False,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,455831,HK$ millions,455831.0,HK$ millions,True,True,True,OLD_10000_2000
+hybrid_rrf,DBS BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,In HK$ millions,True,False,False,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",KM1,Total RWA,2024 Dec,680082,HK$m,680082.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,FUSION BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,9443927,HKD’000,9443927.0,HKD'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",OV1,Market risk,2025 Mar,12759,HK$m,12759.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",OV1,Operational risk,2025 Mar,46558,HK$m,46558.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",LR2,Leverage ratio,2025 Mar,8,%,8.0,HK$m,True,False,False,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,1474852,HK$m,1474852.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,"HANG SENG BANK, LIMITED",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,%,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Tier 1,2025 Mar,587583,HK$m,587583.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,16.7,%,16.7,%,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Total RWA,2024 Dec,3167152,HK$m,3167152.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,LMR,2024 Mar,Not applicable,%,29.5,HK$m,False,False,False,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),KM1,Total capital ratio,2024 Jun,19.4,%,19.4,%,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),OV1,Operational risk,2025 Mar,327541,HK$m,327541.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,7989993,HK$m,7998993.0,HK$m,False,True,False,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),OV1,Market risk,2025 Mar,211452,HK$m,211452.0,HK$m,True,True,True,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Leverage ratio,2025 Mar,5.8,%,5.8,HK$m,True,False,False,OLD_10000_2000
+hybrid_rrf,HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED (THE),LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$m,True,False,False,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Tier 1,2025 Mar,152319241,HK$’000,152319241.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Total RWA,2024 Dec,628460204,HK$’000,628460204.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19.08,%,19.08,(HK$'000),True,False,False,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,KM1,Tier 1,2025 Mar,1654582,HK$’000,1654582.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,KM1,Total RWA,2024 Dec,2182177,HK$’000,2192177.0,HK$'000,False,True,False,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,50.5,%,930899.0,HK$'000,False,False,False,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,KM1,Total capital ratio,2024 Jun,94.3,%,94.3,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,KM1,LMR,2024 Mar,182.1,%,152.3,HK$'000,False,False,False,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,OV1,Operational risk,2025 Mar,209225,HK$’000,209225.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,6519870,HK$’000,6519870.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,LR2,Leverage ratio,2025 Mar,25.3,%,25.3,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,LIVI BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,KM1,Tier 1,2025 Mar,1501315,HK$’000,1501315.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,Total capital ratio,2024 Jun,24.32,%,24.32,(HK$'000),True,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,13.11,%,13.11,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,KM1,Total capital ratio,2024 Jun,20.94,%,20.94,%,True,True,True,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,KM1,LMR,2024 Mar,68.89,%,69.89,HK$'000,False,False,False,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,OV1,Market risk,2025 Mar,9581238,HK$’000,9581238.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,KM1,LMR,2024 Mar,N/A,%,206508501.0,(HK$'000),False,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,21016157,HK$’000,21016157.0,HKD'000,True,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,LR2,Leverage ratio,2025 Mar,6.32,%,6.32,HKD'000,True,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HKD'000,True,False,False,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Tier 1,2025 Mar,60915887,HK$’000,60915887.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Total RWA,2024 Dec,359746767,HK$’000,359746767.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,14.05,%,14.05,%,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",KM1,Total capital ratio,2024 Jun,18.89,%,18.89,%,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",OV1,Market risk,2025 Mar,6286675,HK$’000,6286675.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",OV1,Operational risk,2025 Mar,8620375,HK$’000,8620375.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,542322787,HK$’000,542322787.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Leverage ratio,2025 Mar,10.31,%,10.31,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,"NANYANG COMMERCIAL BANK, LIMITED",LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,KM1,Tier 1,2025 Mar,729970,HK$’000,729970.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,KM1,Total RWA,2024 Dec,1358875,HK$’000,1358875.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,70.9,%,70.9,%,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,KM1,Total capital ratio,2024 Jun,62.6,%,62.6,%,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,KM1,LMR,2024 Mar,68.3,%,15.0,HK$'000,False,False,False,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,OV1,Operational risk,2025 Mar,198413,HK$’000,198413.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,5687660,HK$’000,5687660.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,LR2,Leverage ratio,2025 Mar,12.8,%,12.8,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,PAO BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,KM1,Tier 1,2025 Mar,927805,HK$’000,927805.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,KM1,Total RWA,2024 Dec,5347956,HK$’000,5347956.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,18.5,%,18.5,%,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,KM1,Total capital ratio,2024 Jun,20.9,%,20.9,%,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,KM1,LMR,2024 Mar,327.1,%,587.4,HK$'000,False,False,False,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,OV1,Market risk,2025 Mar,-,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,OV1,Operational risk,2025 Mar,295938,HK$’000,295938.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,8426644,HK$’000,8426644.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,LR2,Leverage ratio,2025 Mar,10.9,%,10.9,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,WELAB BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,KM1,Tier 1,2025 Mar,2031344,HK$ ’000,2031344.0,(HK$ '000),True,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,KM1,Total RWA,2024 Dec,9022777,HK$ ’000,9022777.0,(HK$ '000),True,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,22.8,%,22.8,%,True,True,True,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,KM1,Total capital ratio,2024 Jun,22.5,%,22.5,%,True,True,True,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,KM1,LMR,2024 Mar,93.1,%,100.9,(HK$ '000),False,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,OV1,Market risk,2025 Mar,1588,HK$ ’000,1588.0,HK$ '000,True,True,True,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,OV1,Operational risk,2025 Mar,817563,HK$ ’000,817563.0,(HK$ '000),True,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,24286900,HK$ ’000,24286900.0,(HK$ '000),True,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,LR2,Leverage ratio,2025 Mar,8.2,%,8.2,(HK$ '000),True,False,False,OLD_10000_2000
+hybrid_rrf,ZA BANK LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$ '000,True,False,False,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,OV1,Operational risk,2025 Mar,14076888,HK$’000,14076888.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,853572,HK$M,853572.0,HK$M,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.1,%,17.1,HK$M,True,False,False,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,20.2,%,20.2,%,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$M,True,True,True,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Leverage ratio,2025 Mar,13.73,%,13.73,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,915980353,HK$’000,915980353.0,(HK$'000),True,False,False,OLD_10000_2000
+hybrid_rrf,INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ASIA) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,KM1,Total RWA,2024 Dec,6670498,HK$’000,6670498.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$M,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Tier 1,2025 Mar,53877738,HK$’000,53877738.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Total RWA,2024 Dec,316672653,HK$’000,316672653.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,19.4,%,14.0,%,False,True,False,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,Total capital ratio,2024 Jun,18.7,%,18.7,%,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,KM1,LMR,2024 Mar,N/A,%,0.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,OV1,Market risk,2025 Mar,5717938,HK$’000,5717938.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,OV1,Operational risk,2025 Mar,15417263,HK$’000,15417263.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,478844568,HK$’000,478844568.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Leverage ratio,2025 Mar,9.8,%,9.8,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,CHINA CITIC BANK INTERNATIONAL LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,56845879,HK$’000,56845879.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Total RWA,2024 Dec,290900268,HK$’000,290900268.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Common Equity Tier 1 (CET1) ratio,2024 Sep,17.95,%,17.95,percentage,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,Total capital ratio,2024 Jun,21.88,%,21.88,%,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,KM1,LMR,2024 Mar,N/A,%,455548605.0,HK$'000,False,False,False,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,OV1,Market risk,2025 Mar,N/A,HK$’000,0.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,MOX BANK LIMITED,OV1,Operational risk,2025 Mar,818738,HK$’000,818738.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,425891265,HK$’000,425891265.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,KM1,Tier 1,2025 Mar,184883,HK$M,184883.0,HK$M,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,101634,HK$M,101634.0,HK$M,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,86393,HK$M,86393.0,HK$M,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Total on-balance sheet exposures (excluding derivative contracts and SFTs),2025 Mar,2123188,HK$M,2123188.0,HK$M,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,OV1,Market risk,2025 Mar,938375,HK$’000,938375.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,OV1,Operational risk,2025 Mar,14846025,HK$’000,14846025.0,HK$'000,True,True,True,OLD_10000_2000
+hybrid_rrf,STANDARD CHARTERED BANK (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,6.77,%,6.77,HK$M,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Leverage ratio,2025 Mar,12.4,%,12.4,HK$'000,True,False,False,OLD_10000_2000
+hybrid_rrf,BANK OF COMMUNICATIONS (HONG KONG) LIMITED,LR2,Minimum leverage ratio requirement,2025 Mar,3,%,3.0,HK$'000,True,False,False,OLD_10000_2000
