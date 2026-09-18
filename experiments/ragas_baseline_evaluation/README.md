@@ -59,13 +59,31 @@ The evaluation above was run using a separate, pre-existing local environment
 (see "What actually happened" below) because at the time, a fresh
 `pip install -r requirements-offline.txt` still couldn't import `ragas` in
 `RAG-Production/.venv`. Digging into *why* that one old environment worked
-turned up the real root cause: it wasn't the package **versions** at all — its
-`mistralai` package had a hand-patched `__init__.py` (`from mistralai.client
-import Mistral`) that doesn't exist in any real PyPI release of `mistralai`.
-`instructor`'s mistral provider (pulled in transitively by `ragas`) expects
-exactly that top-level `mistralai.Mistral` export, which current `mistralai`
-releases don't provide — only `mistralai.client.Mistral`, which is what
-`scripts/ingest.py` already uses.
+turned up the real root cause — and it's an externally documented, known
+issue, not project-specific weirdness:
+
+- **[`mistralai` v2.0.0 release notes](https://github.com/mistralai/client-python/releases/tag/v2.0.0)**
+  (mistralai's own repo) list, under "Breaking changes": *"All import paths
+  changed"* — specifically `from mistralai import Mistral` (v1) became
+  `from mistralai.client import Mistral` (v2). This is what
+  `scripts/ingest.py` already uses correctly.
+- **[`instructor` issue #2137](https://github.com/567-labs/instructor/issues/2137)**
+  ("New Mistralai version 2.0.0 released 3h ago breaks instructor") is the
+  exact same `ImportError: cannot import name 'Mistral' from 'mistralai'`
+  hit here, reported independently by other `instructor` users — the bug
+  report even names `instructor==1.14.5`, the exact version this repo pins,
+  as affected. The maintainer's fix was to pin `instructor`'s own `mistral`
+  extra to `mistralai<2.0.0` — not usable here, since `scripts/ingest.py`
+  needs `mistralai>=2.0` for its own OCR calls.
+
+The one old local environment that happened to still work had a
+`mistralai/__init__.py` re-exporting `Mistral` at the top level — a
+pre-2.0.0-style shim not present in any real `mistralai` release (confirmed:
+absent from pip's own install manifest for that package, i.e. it wasn't
+written by `pip install` itself). Its exact origin wasn't recoverable — no
+session logs exist from that far back, and it doesn't matter for the fix
+below — but it was functionally the same workaround the `instructor`
+community was already applying to this exact upstream break.
 
 The durable fix, now in the repo:
 
