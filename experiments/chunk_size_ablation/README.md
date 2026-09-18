@@ -18,13 +18,23 @@ All 200 ground-truth rows × all 3 retrieval strategies (`sparse`, `dense`, `hyb
 through the real `app.retrieval.search()` + `app.extraction.extract_metrics_from_top_chunks()` against
 both collections, and compared against `ground_truth.xlsx` on value and unit correctness.
 
-**RAGAS was not used** for this experiment — `scripts/evaluate.py` currently fails to import in this
-venv (`ragas 0.4.3` → `instructor 1.3.2` → `mistralai.async_client`, which no longer exists in the
-installed `mistralai==2.10.0`; upgrading `instructor` to 1.17.0 only pushes the failure one layer deeper,
-to `ragas.llms.base` importing `langchain_community.chat_models.vertexai`, which has been relocated out
-of `langchain_community` upstream). `requirements-offline.txt` pins `ragas>=0.2` with no upper bound,
-so this is a real, currently-unresolved reproducibility gap, separate from this experiment. Value/unit
-exact-match against `ground_truth.xlsx` was used instead.
+**RAGAS was not used for this specific experiment** — at the time this ablation was run,
+`scripts/evaluate.py` failed to import in `RAG-Production/.venv` (`ragas 0.4.3` → `instructor 1.3.2` →
+`mistralai.async_client`, which no longer exists in the installed `mistralai==2.10.0`; upgrading
+`instructor` only pushed the failure one layer deeper, to `ragas.llms.base` importing
+`langchain_community.chat_models.vertexai`, which has been relocated out of `langchain_community`
+upstream). `requirements-offline.txt` pins `ragas>=0.2` with no upper bound, so `pip install`-ing it
+fresh today resolves a different, incompatible set of transitive versions than whatever was installed
+when this repo's `ragas` support was first written. Value/unit exact-match against `ground_truth.xlsx`
+was used instead for this ablation.
+
+**This was later resolved** — see
+[`../ragas_baseline_evaluation/`](../ragas_baseline_evaluation/) for a real RAGAS evaluation (all 4
+metrics, all 3 strategies, full 200-query set) run against production by using a different, older
+environment on the same machine where `ragas` still imports cleanly, rather than risking a `mistralai`
+downgrade inside `RAG-Production/.venv`. The durable fix — pinning exact compatible versions in
+`requirements-offline.txt` so a fresh `pip install` reproduces a working environment — is noted there
+as still outstanding.
 
 ## Files
 
