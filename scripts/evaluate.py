@@ -29,6 +29,21 @@ from app.extraction import extract_metrics_from_top_chunks  # noqa: E402
 from app.retrieval import build_query, search  # noqa: E402
 
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings  # noqa: E402
+
+# Compatibility shim: instructor's mistral provider (imported transitively by
+# ragas) expects `from mistralai import Mistral` at the top level, which
+# current mistralai releases no longer expose (only `mistralai.client.Mistral`,
+# which is what scripts/ingest.py already uses). Rather than pin mistralai to
+# an older release and risk scripts/ingest.py's working OCR calls, patch the
+# top-level export back in before ragas/instructor import it. See
+# experiments/ragas_baseline_evaluation/README.md for how this was diagnosed.
+import mistralai  # noqa: E402
+
+if not hasattr(mistralai, "Mistral"):
+    from mistralai.client import Mistral as _MistralCompat
+
+    mistralai.Mistral = _MistralCompat
+
 from ragas.dataset_schema import SingleTurnSample  # noqa: E402
 from ragas.embeddings import LangchainEmbeddingsWrapper  # noqa: E402
 from ragas.llms import LangchainLLMWrapper  # noqa: E402

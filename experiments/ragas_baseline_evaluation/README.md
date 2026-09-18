@@ -53,16 +53,39 @@ hybrid_rrf are small. Sparse is weakest across every RAGAS metric, consistent
 with keyword matching alone retrieving less semantically relevant context
 than the embedding-based approaches.
 
-## What this does *not* fix
+## Update — durable fix landed
 
-`RAG-Production/.venv` — the environment a fresh clone of this repo would
-actually get from `pip install -r requirements-offline.txt` — still cannot
-import `ragas`. This run used a pre-existing, un-reproducible environment
-specific to this machine, not a portable fix. The durable fix is to pin exact,
-mutually-compatible versions of `ragas`, `instructor`, `mistralai`, and
-`langchain-community` in `requirements-offline.txt` (starting from the
-versions confirmed working here) so a fresh install reproduces a working
-environment — not yet done.
+The evaluation above was run using a separate, pre-existing local environment
+(see "What actually happened" below) because at the time, a fresh
+`pip install -r requirements-offline.txt` still couldn't import `ragas` in
+`RAG-Production/.venv`. Digging into *why* that one old environment worked
+turned up the real root cause: it wasn't the package **versions** at all — its
+`mistralai` package had a hand-patched `__init__.py` (`from mistralai.client
+import Mistral`) that doesn't exist in any real PyPI release of `mistralai`.
+`instructor`'s mistral provider (pulled in transitively by `ragas`) expects
+exactly that top-level `mistralai.Mistral` export, which current `mistralai`
+releases don't provide — only `mistralai.client.Mistral`, which is what
+`scripts/ingest.py` already uses.
+
+The durable fix, now in the repo:
+
+- `requirements-offline.txt` pins `ragas==0.4.3`, `instructor==1.14.5`, and
+  `langchain-community==0.4.1` — a combination verified (via a completely
+  fresh venv, installed only from this repo's requirement files, nothing
+  copied from any personal machine state) to import cleanly. `mistralai`
+  itself is **not pinned down** — it stays on whatever recent release
+  `scripts/ingest.py` already resolves and relies on.
+- `scripts/evaluate.py` now includes a small compatibility shim before its
+  `ragas` imports: if `mistralai.Mistral` isn't exposed at the top level, it
+  patches it in from `mistralai.client.Mistral` at runtime. This is the same
+  fix the hand-patched environment had, just written as three lines of
+  version-controlled code instead of a manual, undocumented edit to
+  `site-packages` on one machine.
+
+Verified end-to-end: `pip install -r requirements-offline.txt` into a brand
+new venv, then `python scripts/evaluate.py --help` runs cleanly (deprecation
+warnings only), and `scripts/ingest.py` still imports and resolves
+`mistralai` completely normally — the OCR pipeline was never touched.
 
 ## Files
 

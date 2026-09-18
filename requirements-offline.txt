@@ -9,5 +9,11 @@ openpyxl>=3.1
 joblib>=1.4
 mistralai>=1.0
 langchain-text-splitters>=0.3
-ragas>=0.2
+ragas==0.4.3
+# ragas's transitive deps drift fast and break each other on a loose pin
+# (see experiments/ragas_baseline_evaluation/README.md) — pinned to a
+# combination verified to import cleanly alongside the mistralai version
+# scripts/ingest.py actually uses.
+instructor==1.14.5
+langchain-community==0.4.1
 chromadb>=0.5
