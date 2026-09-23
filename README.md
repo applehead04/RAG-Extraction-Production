@@ -61,8 +61,8 @@ and only *reads* the data that Offline already produced.
   disclosures blur but that matters for correctness.
 - **Offline/online split**: heavy dependencies and data never enter the
   Docker image, keeping the deployed service small and reproducible.
-- **Idempotent ingestion**: re-running ingestion for a bank atomically
-  replaces its chunks rather than duplicating them.
+- **Idempotent ingestion**: re-running ingestion for a bank deletes and
+  replaces its existing chunks rather than duplicating them.
 - **Cloud-ready**: deployed and verified on Google Cloud Run, backed by a
   Cloud Storage-mounted vector store.
 
