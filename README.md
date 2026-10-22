@@ -1,11 +1,11 @@
 # HKMA Pillar 3 RAG Extraction Service
 
-A production FastAPI service that answers natural-language questions about
+A deployable FastAPI service that answers natural-language questions about
 Hong Kong banks' Basel Pillar 3 regulatory disclosures — retrieving the
-relevant passage from a bank's disclosure PDF and extracting the exact
+relevant passage from a bank's disclosure PDF and extracting the
 figure, unit, and applicability with a structured, LLM-backed pipeline.
 
-This is the productionized, deployable companion to
+This is the deployable companion to
 [**FYP-RAG-Extraction**](https://github.com/applehead04/FYP-RAG-Extraction),
 which contains the original research notebooks, evaluation results, and
 error-analysis behind this pipeline. That repo answers *"does this retrieval
@@ -84,6 +84,25 @@ request — no local setup required. Example request body:
   "strategy": "hybrid_rrf"
 }
 ```
+
+> **First request may be slow.** The service scales to zero when idle, so the
+> first request after a quiet period waits for a new container to start —
+> about 20 seconds in testing (one observed cold start took ~21 s).
+
+## Evaluation and experiments
+
+- [Dissertation results](https://github.com/applehead04/FYP-RAG-Extraction#key-findings)
+  — 200 questions × 3 retrieval strategies. 82–85% of values were correct,
+  but only 48–53% once the unit also had to be correct; unit errors were the
+  largest failure category.
+- [RAGAS baseline on this service](experiments/ragas_baseline_evaluation/README.md)
+  — the 200-question set run through this repo's retrieval and extraction
+  code against the production collection (sparse completed 198 of 200),
+  scored with exact match (47.5–56.0% across strategies) and RAGAS.
+- [Chunk-size ablation](experiments/chunk_size_ablation/README.md) — in this
+  experiment, smaller chunks (3000/1000 vs 10000/2000) lowered value accuracy
+  but raised unit accuracy; hybrid RRF with smaller chunks had the highest
+  fully-correct rate tested (65.0%).
 
 ## Running it yourself
 
@@ -247,6 +266,7 @@ gcloud run services delete pillar3-rag --region=<region>
 |--------|---------|
 | `404`  | Bank not ingested, or no relevant chunks retrieved |
 | `409`  | BM25 index missing (sparse/hybrid requested before `build_bm25.py`) |
+| `422`  | Request body failed validation (e.g. missing `bank_name`, unknown `strategy`, `top_k` outside 1–10) |
 | `502`  | LLM extraction failed after retries |
 
 ## Project Structure
